@@ -14,4 +14,11 @@ module.exports = ({ env }) => ({
       defaultReplyTo: "your-email@example.com",
     },
   },
+  "users-permissions": {
+    config: {
+      jwt: {
+        secret: env("MNihWlYqmbnJjfTrDS8ALg==", "Ktq78QP7MJsqWQr13zl7eA=="),
+      },
+    },
+  },
 });
