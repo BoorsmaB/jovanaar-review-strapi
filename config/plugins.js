@@ -17,7 +17,7 @@ module.exports = ({ env }) => ({
   "users-permissions": {
     config: {
       jwt: {
-        secret: "MNihWlYqmbnJjfTrDS8ALg==",
+        secret: "MNihWlYqmbnJjfTrDS8ALg==", // Ensure this is a single valid string
       },
     },
   },
